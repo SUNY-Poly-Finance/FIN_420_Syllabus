@@ -1,15 +1,15 @@
 #+title: FIN 420 Syllabus
 #+author: Matt Brigida, Ph.D.
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+options: toc:nil
+
+#+BEGIN_CENTER
+SUNY POLYTECHNIC INSTITUTE
+
+SCHOOL OF BUSINESS ADMINISTRATION
+#+END_CENTER
 
 
-<center>
-<b>SUNY POLYTECHNIC INSTITUTE</b>
-
-<b>SCHOOL OF BUSINESS ADMINISTRATION</b>
-</center>
-<br>
-<br>
 **Instructor**: Matthew Brigida, Ph.D.
 
 **Office**: Donovan 1277
@@ -20,15 +20,15 @@
 
 **Class Location**:  Donovan 1157
 
-**Class Day/Time**: Tuesday  6:00pm--9:30pm
+**Class Day/Time**: MWF @ 8am
 
-**Text**: TBD
+**Text**: Instructor Provided Materials
 
-**Supplementary Material**: [5MinuteFinance.org](https://www.5minutefinance.org/)
+**Supplementary Material**: [[https://www.5minutefinance.org/][5MinuteFinance.org]]
 
 * Course Structure and Interaction
 
-The goal of the course is to provide good solutions to the text cases.  Completing the cases requires a good knowledge of concepts/terms/measures learned in earlier courses.  To help you remember this material, I may reference materials I provide via the following media:  
+The goal of the course is to understand the principles of corporate financial planning and control, and to also be able to apply them in real-world cases.  Constructing a financial plan requires a good knowledge of concepts/terms/measures learned in earlier courses.  To help you remember this material, I may reference materials I provide via the following media:  
 
 -  Via BlackBaord Collaborate.  You can view them live (I'll let you know when I am recording), or under the `Recordings` section of Collaborate.
 
@@ -36,15 +36,12 @@ The goal of the course is to provide good solutions to the text cases.  Completi
 
 * Description
 
-This is a cases course for upper-level finance students. The learning outcomes for this course are summarized below:
+In this course students will learn and apply the principles of corporate financial planning and control. The learning outcomes for this course are summarized below:
 
-#. Students will use various skills to evaluate complex financial problems, and ultimately provide a recommendation on a course of action.  Among these skills are the ability to analyze financial statements, perform time-value-of-money calculations, perform capital budgeting tasks, compute costs of capital, and manipulate corporate capital structure, among others.
-
-#.  Students will learn to communicate complex topics in a clear and concise manner.
-
-#.  Students will learn to calculate and present various measures of financial performance appropriate to specific types of firms.  
-
-#.  In short, in this course you will start to complete analyses like you are an analyst.  Specifically, we are transitioning away from simple calculations, and toward holistic analyses which incorporate many calculations, and your knowledge of financial topics and the interdependence between variables.  
+1. Students will use concepts learned in prior finance courses (such as how to analyze financial statements, perform time-value-of-money calculations, perform capital budgeting tasks, compute costs of capital, and manipulate corporate capital structure) in order to construct financial plans.
+2.  Students will 'close-the-loop' by learning to measure the performance of financial plans, and then use this information to adjust the financial plan and projection.
+3.  Students will learn to communicate complex topics in a clear and concise manner.
+4.  Students will learn to calculate and present various measures of financial performance appropriate to specific types of firms.
 
 * Academic Honesty Policy
 
@@ -57,37 +54,6 @@ semester. Course withdrawals to avoid such a failure will not be permitted. As a
 have a responsibility to become familiar with the Academic Honesty Policy found in the Student
 Rights, Regulations, and Procedures Handbook.
 
-*  Cases
-
-Throughout the semester we'll work on a series of projects that will help us understand both financial theories, and also, *importantly*, practical considerations we are faced with when applying these theories in the real-world. Some notes on the projects:
-
--  Most case will require computations either in a spreadsheet, or programming language.  In this course you should probably use a spreadsheet (Excel or similar).  If you write it in a programming language (such as R or Python) you'll have to share the code so I can reproduce your results.
-
--  If you have questions on a project you are encouraged to post your spreadsheet/code to the relevant discussion board so I and other students can help.  You learn a great deal by helping others, and by seeing how others approach the problem.  Also don't worry too much about others copying you.  It is fairly easy to tell when one spreadsheet has been copied from another.  Moreover, since you posted yours, it would be clear that you were the one copied off of.
-
-** Case Report Structure
-
-For each case you will hand in a report with the following general headings:
-
-```{r case_struct, echo=FALSE, message=FALSE, warnings=FALSE, results='asis'}
-tabl <- "
-|        | | 
-| ------ | ---- | 
-| I. Executive Summary | |
-| II. Problem Statement | |
-| III.  Analysis and Recommendations | |
-| IV.  Alternate Solutions | |
-| V.  Supplementary Material (Excel spreadsheets, etc) | |
-"
-cat(tabl)
-```
-
-Many of the cases will require supplementary spreadsheet calculations.  Do not simply hand in a spreadsheet with your calculations with no explanation.  Think about how you would submit an analysis to your boss while working as an analyst.  You must explain why you did what you did.
-
-Also, often students will ask for the correct answer or way of doing something.  This is a cases (real-world problem) course, and as such there is not one unique right answer.  The important thing is not your answer, but rather that you clearly state your reasoning for taking a particular approach.
-
-**All cases should be handed in by uploading them to the BB Dropbox.  Do not send them via email**
-
 * Participation
 
 Your participation grade is a function of both your attendance, and your participation in the discussion while you are attending.  If you miss a few classes (particularly for a good reason) your grade won't be adversely affected, however if you *consistently* do not attend I will lower your participation score.  Similarly, if you *consistently* do not participate in the class discussion I will lower your score.  
@@ -99,16 +65,17 @@ All communication will be through Blackboard and email. If you have question you
 * Grading
 
 
-| Item             | Points |
-|------------------+--------|
-| Case Submissions |     70 |
-| Participation    |     30 |
-| Total Points     |    100 |
+| Item                        | Points |
+|-----------------------------+--------|
+| Financial Plans and Reports |     70 |
+| Participation               |     30 |
+| Total Points                |    100 |
+|-----------------------------+--------|
 
 
-<center>
+#+begin_center
 **Final grades will be assigned according to the following scale**:
-</center>
+#+end_center
 
 - 90 - 100 A
 - 80 - 89.9 B
@@ -116,7 +83,9 @@ All communication will be through Blackboard and email. If you have question you
 - 60 - 69.9 D
 - $<$ 60 F
 
-> +/- grades may be assigned at the instructors discretion.
+#+begin_quote
++/- grades may be assigned at the instructors discretion.
+#+end_quote
 
 * General Notes
 
@@ -136,21 +105,6 @@ and OpenOffice (http://www.openoffice.org). Feel free to download and use
 these. *In this course all word processed submissions should be in .pdf, and
 all spreadsheets should be submitted as .xlsx.*
 
-
-* Tentative Outline
-
-| Week                          | Case                                                                      |
-|-------------------------------+---------------------------------------------------------------------------|
-| Weeks 1 and 2: 6/28--9/6      | Setting themes--Cases in module: **Ben & Jerry**                          |
-| Weeks 3 and 4: 9/11--9/20     | **FedEx vs. UPS**                                                         |
-| Weeks 5 and 6: 9/25--10/4     | Krispy Kreme & Teletech                                                   |
-| Weeks 7 and 8: 10/11--10/18   | The Body Shop                                                             |
-| Weeks 9 and 10: 10/23--11/1   | Financial Analysis and Forecasting--Case: **Value-Line Publishing**       |
-| Weeks 11 and 12: 11/6--11/15  | Estimating the cost of capital--Case: **Nike, Inc.**                      |
-| Weeks 13 and 14: 11/20--11/29 | Capital Budgeting and Resource Allocation--Case: **Aurora Textile Corp.** |
-| Weeks 15: 12/4--12/6          | Carrefour                                                                 |
-
-
 * Some Notes on Spreadsheet Design
 
 You should construct your spreadsheet as if you were an analyst at a company, and you were going to submit the spreadsheet to upper management.  Therefore, getting the correct answer can be considered the minimal amount of work.  The spreadsheet should be easily readable and organized.  There are a couple of reasons why this is important: (1) management often will check some numbers (or maybe change a few inputs if they have more up to date information) and it will reflect very poorly on you if they have to search around through a muddled and ill-conceived spreadsheet; and (2) anyone should be able to pick up your spreadsheet and complete it if you are not there (vacation, sick, or hopefully promoted).  Following are a couple tips on spreadsheet design, though it is far from exhaustive.
@@ -162,7 +116,9 @@ You should construct your spreadsheet as if you were an analyst at a company, an
 -  If you are inputting a long formula, then break the calculation into multiple cells.  This makes it much easier to tell where a mistake was made - and everyone always spends a fair amount of time looking for errors.
 - Excel has many built in formulas which can be useful, however it is important that you understand what the formula is doing to use them.  Blindly applying a formula can lead to trouble.  For example, if you use the IRR() function on cash flows with multiple roots, the formula will return the first root it finds without signaling to you that there are other roots.  Also, there are Excel formulas that are flat out incorrect - in particular the NPV() function.  So, use a function if it saves time, but first be sure you know what the function is doing and verify it works.  That said, in my experience it is better (and faster) to input your own formula instead of using Excel's.  You often have to break the calculation into a couple of steps, but this can be done quickly, and the result is a spreadsheet that you know works and is easily auditable.
 
-* Some Discussion Papers on AI
+* Some Discussion Papers on AI 
+
+The following paper will not be important for this course, however you still may want to read them.
 
 + [[https://www.mckinsey.com/featured-insights/artificial-intelligence][McKinsey AI]]
 + [[https://www.mckinsey.com/~/media/McKinsey/Industries/Advanced%2520Electronics/Our%2520Insights/How%2520artificial%2520intelligence%2520can%2520deliver%2520real%2520value%2520to%2520companies/MGI-Artificial-Intelligence-Discussion-paper.ashx][AI: The Next Digital Frontier?]]
